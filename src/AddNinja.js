@@ -19,7 +19,7 @@ class AddNinja extends Component{
         return(
             <form onSubmit={this.handleSubmit}>
                 <label htmlFor="name">Name: </label>
-                <input type="text" id="name" onChange={this.handleChange} />
+                <input type="text" id="name" onChange={this.handleChange} autoFocus={true} />
                 <label htmlFor="age">Age: </label>
                 <input type="text" id="age" onChange={this.handleChange} />
                 <label htmlFor="belt">Belt: </label>
